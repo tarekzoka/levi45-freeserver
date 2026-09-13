@@ -8,7 +8,7 @@ PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/Levi45FreeServer"
 STATUS_FILE="/var/lib/opkg/status"
 PACKAGE_NAME="enigma2-plugin-extensions-levi45-freeserver"
 PLUGIN_NAME="levi45-freeserver"
-URL="https://github.com/emil237/plugins/raw/refs/heads/main/levi45-freeserver"
+URL="https://github.com/tarekzoka/levi45-freeserver/raw/refs/heads/main/levi45-freeserver"
 
 if [ -d "$PLUGIN_DIR" ]; then
     echo "> Removing old $PLUGIN_NAME plugin, please wait..."
@@ -71,7 +71,7 @@ else
 fi
 
 echo "********************************************************************************"
-echo "   UPLOADED BY  >>>>   EMIL_NABIL "   
+echo "   UPLOADED BY  >>>>   TAREK_HANFY "   
 sleep 3
 echo ". >>>>         RESTARTING     <<<<"
 echo "**********************************************************************************"
